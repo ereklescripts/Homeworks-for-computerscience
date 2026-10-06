@@ -71,3 +71,79 @@ b = "True" ✅
 "abc" = b
 5 = b 
 False = b
+
+# ENGLISH VERSION
+
+1) What does a variable represent in Python?
+
+- A reference to an object in RAM ✅
+- A reference and a data storage
+- A data storage
+- None of the above
+
+2) What does the assignment operator "=" do?
+
+- Enters data into a variable
+- Sets the variable's value to zero
+- Binds a variable to data ✅
+- Creates a new variable if it does not exist
+- Deletes a variable with the specified name
+
+3) What happens when one variable is assigned to another variable (a = b)?
+
+- Such an operation is not allowed. Only objects can be assigned, not variables.
+- Data is copied and variable a contains a copy of the information from variable b
+- The reference is copied and both variables point to the same object ✅
+- Two variables are created, if they did not exist before, they are assigned a zero value
+
+4) What is an assignment of the form a = b = c = 0 called?
+
+- Cascading assignment
+- Multiple assignment
+- Such an operation is not allowed
+- Unary (single) assignment
+- Chained assignment ✅
+
+5) What is an assignment of the form a, b = 1, 2 called?
+
+- Such an operation is not allowed
+- Cascading assignment
+- Multiple assignment ✅
+- Chained assignment
+- Unary (single) assignment
+
+6) What is the type() function used for?
+
+- To determine the type of a variable or object
+- Only to determine the type of a variable
+- Only to determine the type of an object
+-  Such a function does not exist in Python
+7) Write only the correct variable names
+
+\n 
+7_b
+arg_c ✅
+25d 
+d25 ✅
+TT1 ✅
+S ✅
+var_a ✅
+don't
+_b ✅
+
+7) Do the variable names arg, Arg, ARG differ from each other?
+
+No
+Such names are not allowed
+Yes ✅
+Sometimes
+
+8) Choose the correct options for assigning data to variable b (it is assumed that there are no other variables in the program).
+
+b = 'Hello' ✅
+b = hello
+b = 5.8 ✅
+b = "True" ✅
+"abc" = b
+5 = b 
+False = b
