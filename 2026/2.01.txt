@@ -1,149 +1,68 @@
-1)რას წარმოადგენს ცვლადი Python-ში?
-
-- ობიექტზე ბმულს ოპერატიულ მეხსიერებაში ✅
-- ბმულს და მონაცემთა საცავს
-- მონაცემთა საცავს 
-- ჩამოთვლილთაგანს არცერთს
+1) რას წარმოადგენს ცვლადი Python-ში?
+✅ ობიექტზე ბმულს ოპერატიულ მეხსიერებაში
 
 2) რას აკეთებს მინიჭების ოპერატორი "="?
+✅ ცვლადს აკავშირებს მონაცემთან
 
-- შეიტანს მონაცემებს ცვლადში
-- ანულებს ცვლადის მნიშვნელობას
-- ცვლადს აკავშირებს მონაცემთან ✅
-- ქმნის ახალ ცვლადს მისი არარსბობის შემთხვევაში
-- შლის ცვლადს მითითებული სახელით
+3) რა ხდება ერთი ცვლადის მეორე ცვლადზე მინიჭებისას (a = b)?
+✅ ბმულის კოპირება და ორივე ცვლადი მიუთითებს ერთსა და იმავე ობიექტს
 
-3) ა ხდება ერთი ცვლადის მეორე ცვლადზე მინიჭებისას (a = b)?
-
-- ასეთი ოპერაცია დაუშვებელია. შესაძლებელია მხოლოდ ობიექტების მინიჭება და არა ცვლადების.
-- მონაცემთა კოპირება და ცვლადი a შეიცავს ინფორმაციის ასლს b ცვლადიდან
-- ბმულის კოპირება და ორივე ცვლადი მიუთითებს ერთსა და იმევე ობიექტს ✅
-- იქმნება ორი ცვლადი, თუ ისინი აქამდე არ არსებობდა, მიენიჭებათ ნულოვანი მნიშვნელობა
-
-4)რა ეწოდება a = b = c = 0 სახის მინიჭებას?
-
-- კასკადური მინიჭება
-- მრავალმხრივი მინიჭება
-- ასეთი ოპერაცია დაუშვებელია
-- უნარული (ერთიანი) მინიჭება
-- ჯაჭვური მინიჭება ✅
+4) რა ეწოდება a = b = c = 0 სახის მინიჭებას?
+✅ ჯაჭვური მინიჭება
 
 5) რა ეწოდება a, b = 1, 2 სახის მინიჭებას?
+✅ მრავალმხრივი მინიჭება
 
-- ასეთი ოპერაცია დაუშვებელია
-- კასკადური მინიჭება 
-- მრავალმხრივი მინიჭება ✅
-- ჯაჭვური მინიჭება
-- უნარული (ერთიანი) მინიჭება
+6) რისთვის გამოიყენება ფუნქცია type()?
+✅ ცვლადის ან ობიექტის ტიპის დასადგენად
 
-6)რისთვის გამოიყენება ფუნქცია type()?
+7) ჩაწერეთ მხოლოდ ცვლადის სწორი სახელები
+✅ სწორი სახელები:
 
-- ცვლადის ან ობიექტის ტიპის დასადგენად 
-- მხოლოდ ცვლადის ტიპის დასადგენად
-- მხოლოდ ობიექტის ტიპის დასადგენად
-- ასეთი ფუნქცია python-ში არ არის
-7)ჩაწერეთ მხოლოდ ცვლადის სწორი სახელები
+arg_c
 
-\n 
-7_b
-arg_c ✅
-25d 
-d25 ✅
-TT1 ✅
-S ✅
-var_a ✅
-don't
-_b ✅
+d25
 
-7)განსხვავდებიან თუ არა ცვლადის სახელები ერთმანეთისგან arg, Arg, ARG?
+TT1
 
-არა
-ასეთი სახელები დაუშვებელია
-დიახ ✅
-ხანდახან
+S
 
-8)აირჩიეთ b ცვლადისთვის მონაცემების მინიჭების სწორი ვარიანტები (ითვლება, რომ პროგრამაში სხვა ცვლადები არ არის).
+var_a
 
-b = 'Hello' ✅
-b = hello
-b = 5.8 ✅
-b = "True" ✅
-"abc" = b
-5 = b 
-False = b
+_b
 
-# ENGLISH VERSION
+❌ არასწორი სახელები:
 
-1) What does a variable represent in Python?
+\n — ახალი ხაზის სიმბოლოა, არა ცვლადი
 
-- A reference to an object in RAM ✅
-- A reference and a data storage
-- A data storage
-- None of the above
+7_b — იწყება ციფრით
 
-2) What does the assignment operator "=" do?
+25d — იწყება ციფრით
 
-- Enters data into a variable
-- Sets the variable's value to zero
-- Binds a variable to data ✅
-- Creates a new variable if it does not exist
-- Deletes a variable with the specified name
+don't — შეიცავს აპოსტროფს
 
-3) What happens when one variable is assigned to another variable (a = b)?
+8) განსხვავდებიან თუ არა ცვლადის სახელები ერთმანეთისგან arg, Arg, ARG?
+✅ დიახ
 
-- Such an operation is not allowed. Only objects can be assigned, not variables.
-- Data is copied and variable a contains a copy of the information from variable b
-- The reference is copied and both variables point to the same object ✅
-- Two variables are created, if they did not exist before, they are assigned a zero value
+Python რეგისტრგრძნობიელია (case-sensitive) — arg, Arg, ARG სამი სხვადასხვა ცვლადია.
 
-4) What is an assignment of the form a = b = c = 0 called?
+9) აირჩიეთ b ცვლადისთვის მონაცემების მინიჭების სწორი ვარიანტები
+✅ სწორი ვარიანტები:
 
-- Cascading assignment
-- Multiple assignment
-- Such an operation is not allowed
-- Unary (single) assignment
-- Chained assignment ✅
+b = 'Hello'
 
-5) What is an assignment of the form a, b = 1, 2 called?
+b = 5.8
 
-- Such an operation is not allowed
-- Cascading assignment
-- Multiple assignment ✅
-- Chained assignment
-- Unary (single) assignment
+b = "True"
 
-6) What is the type() function used for?
+❌ არასწორი ვარიანტები:
 
-- To determine the type of a variable or object
-- Only to determine the type of a variable
-- Only to determine the type of an object
--  Such a function does not exist in Python
-7) Write only the correct variable names
+b = hello — ცვლადი hello არ არსებობს
 
-\n 
-7_b
-arg_c ✅
-25d 
-d25 ✅
-TT1 ✅
-S ✅
-var_a ✅
-don't
-_b ✅
+"abc" = b — მარცხენა მხარეს უნდა იყოს ცვლადი
 
-7) Do the variable names arg, Arg, ARG differ from each other?
+5 = b — მარცხენა მხარეს უნდა იყოს ცვლადი
 
-No
-Such names are not allowed
-Yes ✅
-Sometimes
+False = b — მარცხენა მხარეს უნდა იყოს ცვლადი
 
-8) Choose the correct options for assigning data to variable b (it is assumed that there are no other variables in the program).
-
-b = 'Hello' ✅
-b = hello
-b = 5.8 ✅
-b = "True" ✅
-"abc" = b
-5 = b 
-False = b
+10) რა მოხდება, თუ ფუნქცია type-ს მივანიჭებთ რიცხვს type = 7?
